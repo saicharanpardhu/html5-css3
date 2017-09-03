@@ -1,21 +1,23 @@
+/*To Remove Browser Defaults*/
 *{padding:0px;
 margin:0px;
 }
 body{
-height:2000px;
-background-color: #404040;
+
 }
+/*Fixing the header on top*/
 #header_nav_wrap{
 position:fixed;	
 width:100%;
 z-index:10;
 min-width: 50em;
 }
+
 header{
+font-style:oblique;
 background-color:#3399FF;
 width:100%;
 color:#404040;
-
 }
 #heading{
 width:40%;
@@ -42,6 +44,7 @@ padding: 14px 16px;
  nav li a{
  padding: 14px 16px;
  }
+/*Behaviour of links in navbar*/ 
 nav a:link {color:#404040;background-color:;text-decoration:none;}
 nav a:visited {color:#404040;background-color:;text-decoration:none;}
 nav a:hover {color:#FFFFFF;background-color:#404040;text-decoration:none;}
@@ -50,19 +53,79 @@ nav a:active {color:#FFFFFF;background-color:#404040;text-decoration:none;}
 .hero-image {
     /* The image used */
     background:url(../img/beach.jpg);
-    height: 35%;
-    /* Position and center the image to scale nicely on all screens */
+    height:700px;
+    /* Center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-/* Place text in the middle of the image */
+/* Text in the middle of the image */
 .hero-text {
-	font-family:sans-serif;
+	font-family:'Alex Brush';
     text-align: center;
     position: absolute;
     top: 42%;
     left: 0%;
-    color:#404040;
+    color:white;
+    font-size: 25px;
+}
+/*Style properties of three column section*/
+.skills{
+    border-bottom: 1px dotted #3399FF;
+    padding-bottom: 10px;
+}
+.skills p{
+font-style:normal;   
+font-family:sans-serif ;
+font-size:15px;
+}
+.skills h3{
+ font-style:normal;   
+ font-family:sans-serif ;
+ text-align: center;
+ color:#3399FF ;
+ border-bottom: 1px solid #3399FF;
+}
+/*Style properties of both column in two column section*/
+.about_articles{
+padding-top: 10px;    
+border-top: 1px dotted #3399FF;
+font-style:normal;   
+font-family:sans-serif ;
+}
+.about_articles h3{
+font-style:normal;   
+font-family:sans-serif ;
+color:#404040 ;
+}
+/*Style properties of right column in two column section*/
+.articles{
+font-style:normal;   
+font-family:sans-serif ;
+padding-bottom:20px;
+}
+/*Style properties of footer*/
+footer{
+background-color:#404040;
+bottom:0px;
+height:50px;
+width: 100%;
+}
+/*Style properties of social media links*/
+.social{
+ color: #3399FF;   
+font-style:normal;   
+font-family:sans-serif ;
+float:left;
+padding-left:25px;
+padding-top:7px;
+}
+.copyright{
+color: #3399FF;   
+font-style:normal;   
+font-family:sans-serif ;
+float:right;
+padding-right:25px;
+padding-top:17px;
 }
